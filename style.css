@@ -1,0 +1,318 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #EC715F;
+}
+
+.header-container {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 70px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  width: 120px;
+  line-height: 70px;
+  color: #FAFAFA;
+  padding: 0 30px;
+  font-size: 16px;
+  list-style: none;
+}
+
+#mv {
+  width: 100%;
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.mv-container {
+  width: 1024px;
+  margin: 0 auto;
+  color: #FAFAFA;
+}
+
+.mv-title {
+  padding-top: 200px;
+  font-size: 64px;
+}
+
+.mv-text {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+#pf {
+  width: 100%;
+  text-align: center;
+  background-color: #ECEFF1;
+}
+
+.pf-container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 32px;
+  padding-top: 90px;
+}
+
+.title::after {
+  content: "";
+  margin: 8px auto 30px auto;
+  width: 70px;
+  height: 3px;
+  display: block;
+  background-color: #EC715F;
+}
+
+.text {
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.pf-content {
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.image-box {
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.image-box:nth-child(1) {
+  background-image: url(img/sketch.jpg);
+  margin-bottom: 10px;
+}
+.image-box:nth-child(2) {
+  background-image: url(img/websuku.png);
+  margin: 0 10px 0 10px;
+  margin-bottom: 10px;
+}
+.image-box:nth-child(3) {
+  background-image: url(img/write.jpg);
+  margin-bottom: 10px;
+}
+.image-box:nth-child(4) {
+  background-image: url(img/webcamp.png);
+}
+.image-box:nth-child(5) {
+  background-image: url(img/talk.jpg);
+  margin: 0 10px 0 10px;
+}
+.image-box:nth-child(6) {
+  background-image: url(img/webcamp-mother.png);
+}
+
+#feture {
+  width: 100%;
+  text-align: center;
+}
+
+.feture-container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.feture-content {
+  width: 980px;
+  display: flex;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.strength {
+  width: 320px;
+  height: auto;
+}
+
+.strength i {
+  font-size: 60px;
+}
+
+.strength h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.strength p {
+  font-size: 16px;
+}
+
+.strength:nth-child(2) {
+  margin: 0 10px;
+}
+
+.strength p {
+  text-align: left;
+}
+
+#profile {
+  width: 100%;
+  text-align: center;
+  background-color: #ECEFF1;
+}
+
+.profile-container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.profile-content {
+  width: 1024px;
+  display: flex;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.profile-img {
+  width: 512px;
+}
+
+.profile-img img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.profile-text {
+  text-align: left;
+  width: 512px;
+}
+
+.profile-text h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.profile-text p {
+  font-size: 16px;
+}
+
+.name {
+  margin-bottom: 20px;
+}
+
+#contact {
+  width: 100%;
+  text-align: center;
+}
+
+.contact-container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.contact-content {
+  width: 800px;
+  display: flex;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.contact-content h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.contact-content p {
+  font-size: 16px
+}
+
+.contact-content a {
+  text-decoration: underline;
+  color: #212121;
+  font-size: 16px
+}
+
+.left-content {
+  width: 400px;
+}
+
+.left-contact-content {
+  width: 130px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.mail {
+  margin-bottom: 20px;
+}
+
+.right-content {
+  width: 400px;
+}
+
+.right-contact-content {
+  width: 170px;
+  margin: 0 auto;
+}
+
+.sns {
+  text-align: left;
+}
+
+.sns-icon {
+  display: flex;
+}
+
+.sns-icon i {
+  font-size: 50px;
+}
+
+.sns-icon i:nth-child(2) {
+  margin: 0 20px 0 20px;
+}
+
+.footer-container {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  background-color: #EC715F;
+}
+
+.footer-container p {
+  font-size: 16px;
+  color: #FAFAFA;
+  line-height: 60px;
+}
+
+@media screen and (max-width: 767px) {
+
+header {
+  height: 60px;
+}
+
+.header-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+  #mv {
+  background-image: url(img/code.png);
+  }
+}
